@@ -2,6 +2,8 @@ import Image from 'next/image'
 import type { Metadata } from "next";
 import Footer from "./components/Footer";
 import Button from './components/Button';
+import HeroBigReasons from './components/HeroBigReasons';
+import Header from './components/Header';
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -11,6 +13,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      {/* Hero Big Reasons */}
+      <Header />
+      <HeroBigReasons />
+      <main className="py-40"></main>
       {/* Grow Your SaaS */}
       <section className="bg-[#0B251C]">
         <div className="w-full max-w-[1440px] flex flex-wrap mx-auto">
