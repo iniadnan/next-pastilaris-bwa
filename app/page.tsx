@@ -55,7 +55,27 @@ export default function Home() {
       </div>
       {/* Hero Big Reasons */}
       <HeroBigReasons />
-      <main className="py-40"></main>
+      {/* Build For Everyone */}
+      <section className="bg-[#EDF3F1]">
+        <div className="container flex flex-wrap items-center py-[100px] text-[#0B251C]">
+          <div className="w-1/2">
+            <h2 className="font-bold text-[32px] mb-2.5">Built For Everyone</h2>
+            <p className="font-medium text-[18px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
+            <div className="flex items-center gap-x-6 font-bold mt-[30px]">
+              <Button title="Get Started" background="bg-[#B7EB38]" color="text-[#0B251C]" />
+              <p className="text-center flex items-center gap-x-2">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12.5" r="12" fill="#0B251C" />
+                  <path d="M6.16666 12.8889L8.24477 14.9208C9.4871 16.1355 11.4983 16.0441 12.6254 14.7217L17.8333 8.61108" stroke="white" strokeWidth="3" strokeLinecap="round" />
+                </svg>
+                No credit card required, really.</p>
+            </div>
+          </div>
+          <div className="w-1/2">
+
+          </div>
+        </div>
+      </section>
       {/* Grow Your SaaS */}
       <section className="bg-[#0B251C]">
         <div className="w-full max-w-[1440px] flex flex-wrap mx-auto">
