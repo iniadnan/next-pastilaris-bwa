@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Footer />
     </>
   );
 }
