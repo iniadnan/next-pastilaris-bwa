@@ -13,8 +13,47 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      {/* Hero Big Reasons */}
       <Header />
+      {/* We're Helping */}
+      <div>
+        <div className="container py-[70px]">
+          <h2 className="font-bold text-[32px] text-[#0B251C] text-center">We’re Helping Big<br />
+            Global Companies Grow</h2>
+          <div className="flex flex-wrap items-center justify-center gap-x-[70px] mt-[30px]">
+            <Image
+              src="/icons/company-1.svg"
+              width={140}
+              height={34}
+              alt="Logoisum"
+            />
+            <Image
+              src="/icons/company-2.svg"
+              width={140}
+              height={34}
+              alt="Logoisum"
+            />
+            <Image
+              src="/icons/company-3.svg"
+              width={140}
+              height={34}
+              alt="Logoisum"
+            />
+            <Image
+              src="/icons/company-4.svg"
+              width={140}
+              height={34}
+              alt="Logoisum"
+            />
+            <Image
+              src="/icons/company-3.svg"
+              width={140}
+              height={34}
+              alt="Logoisum"
+            />
+          </div>
+        </div>
+      </div>
+      {/* Hero Big Reasons */}
       <HeroBigReasons />
       <main className="py-40"></main>
       {/* Grow Your SaaS */}
