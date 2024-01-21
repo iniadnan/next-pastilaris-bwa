@@ -52,6 +52,70 @@ export default function SimpleStepsDone() {
                 <div className="mb-[140px] mt-5">
                     <Image className="w-auto h-auto object-cover relative left-1/2" src="/icons/arrow-2.svg" height={80} width={422} alt="Arrow" />
                 </div>
+                {/* Section 2 */}
+                <div className="flex items-center justify-end flex-wrap gap-x-[70px]">
+                    <div className="w-[456px] flex justify-center relative font-semibold text-[18px]">
+                        <div className="absolute -top-[47px] left-0 inline-flex w-auto h-[94px] gap-x-4 p-5 rounded-[16px] bg-white drop-shadow-xl">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24.9998" cy="25" r="25" fill="#B7EB38" />
+                                <path d="M22 35H28C33 35 35 33 35 28V22C35 17 33 15 28 15H22C17 15 15 17 15 22V28C15 33 17 35 22 35Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M28.5 31.5C29.6 31.5 30.5 30.6 30.5 29.5V20.5C30.5 19.4 29.6 18.5 28.5 18.5C27.4 18.5 26.5 19.4 26.5 20.5V29.5C26.5 30.6 27.39 31.5 28.5 31.5Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M21.5 31.5C22.6 31.5 23.5 30.6 23.5 29.5V26C23.5 24.9 22.6 24 21.5 24C20.4 24 19.5 24.9 19.5 26V29.5C19.5 30.6 20.39 31.5 21.5 31.5Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                            <h4>Hyper<br />Growth</h4>
+                        </div>
+                        <div className="absolute bottom-[50px] right-0 p-5 rounded-[16px] bg-white drop-shadow-xl">
+                            <svg className="mx-auto" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24.9998" cy="25" r="25" fill="#B7EB38" />
+                                <path d="M29.6998 31.9801H20.2998C19.8798 31.9801 19.4098 31.6501 19.2698 31.2501L15.1298 19.6701C14.5398 18.0101 15.2298 17.5001 16.6498 18.5201L20.5498 21.3101C21.1998 21.7601 21.9398 21.5301 22.2198 20.8001L23.9798 16.1101C24.5398 14.6101 25.4698 14.6101 26.0298 16.1101L27.7898 20.8001C28.0698 21.5301 28.8098 21.7601 29.4498 21.3101L33.1098 18.7001C34.6698 17.5801 35.4198 18.1501 34.7798 19.9601L30.7398 31.2701C30.5898 31.6501 30.1198 31.9801 29.6998 31.9801Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M19.4998 35H30.4998" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M22.4998 27H27.4998" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                            <h4 className="mt-4 text-center">Get Bigger<br />
+                                Funding</h4>
+                        </div>
+                        <Image className="w-full max-w-[350px] h-auto object-cover" src="/images/simple-steps-done.png" height={470} width={350} alt="Hyper Growth" />
+                    </div>
+                    <div className="w-[470px] text-[#0B251C]">
+                        <div className="mb-[30px] flex items-center gap-x-1">
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
+                            </svg>
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
+                            </svg>
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
+                            </svg>
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
+                            </svg>
+                            <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
+                            </svg>
+                        </div>
+                        <h3 className="font-bold text-[32px]">Pastilaris figured out that our previous system lacking of automation and spend a lot of time doing wrong things.</h3>
+                        <p className="font-medium mt-2.5 mb-[30px]">Angga Yin, CEO Digissets Ltd</p>
+                        <div className="flex items-center gap-x-3 mb-5">
+                            <div className="h-[30px] w-[30px] flex-none">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="14.9998" cy="15" r="15" fill="#0B251C" />
+                                    <path d="M7.49982 15.5L10.8279 18.7542C12.0703 19.9689 14.0815 19.8775 15.2085 18.5551L22.4998 10" stroke="white" strokeWidth="3" strokeLinecap="round" />
+                                </svg>
+                            </div>
+                            <p className="font-bold text-[18px] grow">Business successfully growth</p>
+                        </div>
+                        <div className="flex items-center gap-x-3">
+                            <div className="h-[30px] w-[30px] flex-none">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="14.9998" cy="15" r="15" fill="#0B251C" />
+                                    <path d="M7.49982 15.5L10.8279 18.7542C12.0703 19.9689 14.0815 19.8775 15.2085 18.5551L22.4998 10" stroke="white" strokeWidth="3" strokeLinecap="round" />
+                                </svg>
+                            </div>
+                            <p className="font-bold text-[18px] grow">Reduce bottleneck in ecosystem</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     )
