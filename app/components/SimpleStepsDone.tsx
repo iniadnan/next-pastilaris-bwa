@@ -1,3 +1,4 @@
+import Image from "next/image"
 import SimpleStepsCard from "./SimpleStepsCard"
 
 export default function SimpleStepsDone() {
@@ -8,7 +9,9 @@ export default function SimpleStepsDone() {
                     <h2 className="font-extrabold text-[50px]">Simple Steps & Done.</h2>
                     <p className="text-[18px]">We have designed a feature based on latest research</p>
                 </section>
-                <div className="mt-[50px] mb-5"></div>
+                <div className="mt-[50px] mb-5">
+                    <Image className="w-auto h-auto object-cover" src="/icons/arrow-1.svg" height={80} width={422} alt="Arrow" />
+                </div>
                 <div className="flex flex-wrap items-start justify-between">
                     <SimpleStepsCard title="Creating new account and connect with your website or woocommerce.">
                         <div className="flex items-center gap-x-4">
@@ -46,7 +49,9 @@ export default function SimpleStepsDone() {
                         </div>
                     </SimpleStepsCard>
                 </div>
-                <div className="mb-[140px] mt-5"></div>
+                <div className="mb-[140px] mt-5">
+                    <Image className="w-auto h-auto object-cover relative left-1/2" src="/icons/arrow-2.svg" height={80} width={422} alt="Arrow" />
+                </div>
             </div>
         </main>
     )
