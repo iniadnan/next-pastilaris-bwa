@@ -5,6 +5,7 @@ import Button from './components/Button';
 import HeroBigReasons from './components/HeroBigReasons';
 import Header from './components/Header';
 import BuildForEveryoneCard from './components/BuildForEveryoneCard';
+import SimpleStepsDone from './components/SimpleStepsDone';
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -77,6 +78,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <SimpleStepsDone />
       {/* Grow Your SaaS */}
       <section className="bg-[#0B251C]">
         <div className="w-full max-w-[1440px] flex flex-wrap mx-auto">
