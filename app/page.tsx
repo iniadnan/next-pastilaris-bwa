@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Button from './components/Button';
 import HeroBigReasons from './components/HeroBigReasons';
 import Header from './components/Header';
+import BuildForEveryoneCard from './components/BuildForEveryoneCard';
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -57,7 +58,7 @@ export default function Home() {
       <HeroBigReasons />
       {/* Build For Everyone */}
       <section className="bg-[#EDF3F1]">
-        <div className="container flex flex-wrap items-center py-[100px] text-[#0B251C]">
+        <div className="container flex flex-wrap items-center py-[120px] text-[#0B251C]">
           <div className="w-1/2">
             <h2 className="font-bold text-[32px] mb-2.5">Built For Everyone</h2>
             <p className="font-medium text-[18px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
@@ -72,7 +73,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-1/2">
-
+            <BuildForEveryoneCard />
           </div>
         </div>
       </section>
