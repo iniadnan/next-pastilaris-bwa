@@ -1,6 +1,6 @@
 export default function BFEDataTracking() {
     return (
-        <div className="bg-white rounded-[16px] p-5 w-[180px] absolute z-10 -top-[20px] right-[270px]">
+        <div className="bg-white rounded-[16px] p-5 w-[180px] absolute z-10 -top-[20px] right-[270px] drop-shadow-xl">
             <div className="flex items-start gap-x-2.5">
                 <div className="h-[50px] w-[50px] flex-none">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
