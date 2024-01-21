@@ -6,6 +6,7 @@ import HeroBigReasons from './components/HeroBigReasons';
 import Header from './components/Header';
 import BuildForEveryoneCard from './components/BuildForEveryoneCard';
 import SimpleStepsDone from './components/SimpleStepsDone';
+import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Header />
       {/* We're Helping */}
       <div>
