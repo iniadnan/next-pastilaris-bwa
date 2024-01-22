@@ -7,6 +7,7 @@ import Header from './components/Header';
 import BuildForEveryoneCard from './components/BuildForEveryoneCard';
 import SimpleStepsDone from './components/SimpleStepsDone';
 import Navbar from './components/Navbar';
+import GoodForYourBusiness from './components/GoodForYourBusiness';
 
 export const metadata: Metadata = {
   title: "Making Great Business Decision - PastiLaris",
@@ -59,6 +60,8 @@ export default function Home() {
       </div>
       {/* Hero Big Reasons */}
       <HeroBigReasons />
+      {/* Good For Your Business */}
+      <GoodForYourBusiness />
       {/* Build For Everyone */}
       <section className="bg-[#EDF3F1]">
         <div className="container flex flex-wrap items-center py-[120px] text-[#0B251C]">
