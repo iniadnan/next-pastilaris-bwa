@@ -1,18 +1,11 @@
 import Image from "next/image";
-import Button from "./Button";
+import HeaderLeft from "./HeaderLeft";
 
 export default function Header() {
     return (
-        <header className="py-40">
+        <header className="pt-[100px] pb-[70px]">
             <div className="container flex items-center">
-                <div className="w-1/2 text-[#0B251C]">
-                    <h1 className="font-extrabold text-[60px] leading-[70px]">Making Great Business Decision</h1>
-                    <h2 className="font-medium text-[18px] my-[30px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</h2>
-                    <div className="w-full flex items-center gap-x-[14px]">
-                        <Button title="Get Started, It’s Free" background="bg-[#B7EB38]" color="text-[#0B251C]" />
-                        <Button title="Watch Demo" background="bg-transparent border border-[#0B251C]" color="text-[#0B251C]" />
-                    </div>
-                </div>
+                <HeaderLeft />
                 <div className="w-1/2 flex justify-end">
                     <div className="w-full max-w-[447px] h-[506px] relative bg-[#B7EB38] rounded-[26px] text-[#0B251C]">
                         <div className="w-[316px] absolute z-10 bottom-[68px] -left-[52px] rounded-[16px] bg-white drop-shadow-xl p-5">
