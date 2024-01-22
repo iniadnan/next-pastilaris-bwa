@@ -26,10 +26,10 @@ export default function GoodForYourBusiness() {
                         <div className="h-[50px] w-[50px] flex-none">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="25" cy="25" r="25" fill="#ABB4B1" />
-                                <path d="M34.66 23.44L33.68 27.62C32.84 31.23 31.18 32.69 28.06 32.39C27.56 32.35 27.02 32.26 26.44 32.12L24.76 31.72C20.59 30.73 19.3 28.67 20.28 24.49L21.26 20.3C21.46 19.45 21.7 18.71 22 18.1C23.17 15.68 25.16 15.03 28.5 15.82L30.17 16.21C34.36 17.19 35.64 19.26 34.66 23.44Z" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M28.06 32.39C27.44 32.81 26.66 33.16 25.71 33.47L24.13 33.99C20.16 35.27 18.07 34.2 16.78 30.23L15.5 26.28C14.22 22.31 15.28 20.21 19.25 18.93L20.83 18.41C21.24 18.28 21.63 18.17 22 18.1C21.7 18.71 21.46 19.45 21.26 20.3L20.28 24.49C19.3 28.67 20.59 30.73 24.76 31.72L26.44 32.12C27.02 32.26 27.56 32.35 28.06 32.39Z" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M25.64 21.53L30.49 22.76" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M24.66 25.4L27.56 26.14" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M34.66 23.44L33.68 27.62C32.84 31.23 31.18 32.69 28.06 32.39C27.56 32.35 27.02 32.26 26.44 32.12L24.76 31.72C20.59 30.73 19.3 28.67 20.28 24.49L21.26 20.3C21.46 19.45 21.7 18.71 22 18.1C23.17 15.68 25.16 15.03 28.5 15.82L30.17 16.21C34.36 17.19 35.64 19.26 34.66 23.44Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M28.06 32.39C27.44 32.81 26.66 33.16 25.71 33.47L24.13 33.99C20.16 35.27 18.07 34.2 16.78 30.23L15.5 26.28C14.22 22.31 15.28 20.21 19.25 18.93L20.83 18.41C21.24 18.28 21.63 18.17 22 18.1C21.7 18.71 21.46 19.45 21.26 20.3L20.28 24.49C19.3 28.67 20.59 30.73 24.76 31.72L26.44 32.12C27.02 32.26 27.56 32.35 28.06 32.39Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M25.64 21.53L30.49 22.76" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M24.66 25.4L27.56 26.14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </div>
                         <h3>Real-Time</h3>
@@ -75,7 +75,7 @@ export default function GoodForYourBusiness() {
                                     <div className="h-[30px] w-[30px] flex-none">
                                         <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="15" cy="15.5" r="15" fill="#B7EB38" />
-                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" stroke-width="3" stroke-linecap="round" />
+                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" strokeWidth="3" strokeLinecap="round" />
                                         </svg>
                                     </div>
                                     <p className="font-bold text-[18px] grow">Auto running when reaches certain number</p>
@@ -84,7 +84,7 @@ export default function GoodForYourBusiness() {
                                     <div className="h-[30px] w-[30px] flex-none">
                                         <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="15" cy="15.5" r="15" fill="#B7EB38" />
-                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" stroke-width="3" stroke-linecap="round" />
+                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" strokeWidth="3" strokeLinecap="round" />
                                         </svg>
                                     </div>
                                     <p className="font-bold text-[18px] grow">Sending message to server for repeatation</p>
@@ -93,7 +93,7 @@ export default function GoodForYourBusiness() {
                                     <div className="h-[30px] w-[30px] flex-none">
                                         <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="15" cy="15.5" r="15" fill="#B7EB38" />
-                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" stroke-width="3" stroke-linecap="round" />
+                                            <path d="M7.5 16L10.8281 19.2542C12.0705 20.4689 14.0817 20.3775 15.2087 19.0551L22.5 10.5" stroke="#0B251C" strokeWidth="3" strokeLinecap="round" />
                                         </svg>
                                     </div>
                                     <p className="font-bold text-[18px] grow">Reporting and extracting the data</p>
