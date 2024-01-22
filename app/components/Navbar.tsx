@@ -1,10 +1,27 @@
+"use client"
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import styles from './styles.module.css'
 
 export default function Navbar() {
+    const [isScroll, setIsScroll] = useState<boolean>(false)
+
+    useEffect(() => {
+        document.addEventListener('scroll', isScrolling);
+    }, [])
+
+    const isScrolling = () => {
+        if (window.scrollY > 70) {
+            setIsScroll(true)
+        } else {
+            setIsScroll(false)
+        }
+    }
+
     return (
-        <nav className="z-50 sticky top-[-1px] left-0">
-            <div className="w-[1130px] h-[70px] mx-auto bg-[#0B251C] px-[30px] rounded-[100px]">
+        <nav className="w-full z-50 sticky top-[-1px] left-0">
+            <div className={`${isScroll ? styles.navbarExpand : 'w-[1130px] rounded-[100px]'} h-[70px] mx-auto bg-[#0B251C] px-[30px] transition-all duration-300 ease-in-out`}>
                 <div className="container h-full flex items-center">
                     <div className="flex items-center gap-x-[30px] text-white font-semibold">
                         <div>
@@ -12,10 +29,10 @@ export default function Navbar() {
                         </div>
                         <div className="h-[50px] w-px bg-[#6C8079]"></div>
                         <div className="flex gap-x-[40px]">
-                            <Link href="/" className="text-[#B7EB38] underline">Features</Link>
-                            <Link href="/">vs. Slock</Link>
-                            <Link href="/">Pricing</Link>
-                            <Link href="/">Showcase</Link>
+                            <Link href="/" className="text-[#B7EB38] hover:text-[#B7EB38] underline">Features</Link>
+                            <Link href="/" className="hover:text-[#B7EB38]">vs. Slock</Link>
+                            <Link href="/" className="hover:text-[#B7EB38]">Pricing</Link>
+                            <Link href="/" className="hover:text-[#B7EB38]">Showcase</Link>
                         </div>
                     </div>
                     <div className="flex w-auto ml-auto gap-x-[16px]">
