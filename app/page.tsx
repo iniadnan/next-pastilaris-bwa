@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <div className="h-[30px]"></div>
       <Navbar />
       <Header />
       {/* We're Helping */}
