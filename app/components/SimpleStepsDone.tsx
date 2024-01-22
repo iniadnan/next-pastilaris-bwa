@@ -28,8 +28,8 @@ export default function SimpleStepsDone() {
                         <div className="flex items-center gap-x-4">
                             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="25.3333" cy="25" r="25" fill="#B7EB38" />
-                                <path d="M15 22V20C15 17 17 15 20 15H30C33 15 35 17 35 20V22" stroke="#0B251C" strokeWidth="2" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M15 28V30C15 33 17 35 20 35H30C33 35 35 33 35 30V28" stroke="#0B251C" strokeWidth="2" stroke-miterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M15 22V20C15 17 17 15 20 15H30C33 15 35 17 35 20V22" stroke="#0B251C" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M15 28V30C15 33 17 35 20 35H30C33 35 35 33 35 30V28" stroke="#0B251C" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M19.7 22.26L25 25.33L30.26 22.28" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M25 30.7701V25.3201" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M23.76 19.2901L20.56 21.0701C19.84 21.4701 19.24 22.4801 19.24 23.3101V26.7001C19.24 27.5301 19.83 28.5401 20.56 28.9401L23.76 30.7201C24.44 31.1001 25.56 31.1001 26.25 30.7201L29.45 28.9401C30.17 28.5401 30.77 27.5301 30.77 26.7001V23.3101C30.77 22.4801 30.18 21.4701 29.45 21.0701L26.25 19.2901C25.56 18.9001 24.44 18.9001 23.76 19.2901Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
