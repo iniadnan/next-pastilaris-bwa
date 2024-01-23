@@ -68,8 +68,8 @@ export default function Home() {
       <GoodForYourBusiness />
       {/* Build For Everyone */}
       <section className="bg-[#EDF3F1]">
-        <div className="container flex flex-wrap items-center py-[120px] text-[#0B251C]">
-          <div className="w-1/2">
+        <div className="container flex flex-wrap items-center justify-between py-[120px] text-[#0B251C]">
+          <div className="w-1/2 max-w-[480px]">
             <h2 className="font-bold text-[32px] mb-2.5">Built For Everyone</h2>
             <p className="font-medium text-[18px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
             <div className="flex items-center gap-x-6 font-bold mt-[30px]">

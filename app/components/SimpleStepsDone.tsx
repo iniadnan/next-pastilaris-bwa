@@ -94,7 +94,7 @@ export default function SimpleStepsDone() {
                                 <path d="M13.9998 0L17.143 9.67376H27.3146L19.0856 15.6525L22.2288 25.3262L13.9998 19.3475L5.77082 25.3262L8.91402 15.6525L0.685025 9.67376H10.8566L13.9998 0Z" fill="#FF9736" />
                             </svg>
                         </div>
-                        <h3 className="font-bold text-[32px]">Pastilaris figured out that our previous system lacking of automation and spend a lot of time doing wrong things.</h3>
+                        <h3 className="font-bold text-[32px] leading-[46px]">Pastilaris figured out that our previous <span className="bg-[#B7EB38] px-1">system lacking of automation</span> and spend a lot of time doing wrong things.</h3>
                         <p className="font-medium mt-2.5 mb-[30px]">Angga Yin, CEO Digissets Ltd</p>
                         <div className="flex items-center gap-x-3 mb-5">
                             <div className="h-[30px] w-[30px] flex-none">
