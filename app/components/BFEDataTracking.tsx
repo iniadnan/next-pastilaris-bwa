@@ -1,15 +1,4 @@
-"use client"
-import { useEffect, useState } from "react";
 export default function BFEDataTracking() {
-
-    useEffect(() => {
-        isScrolling();
-    }, [])
-
-    const isScrolling = () => {
-        console.log(window.screenY)
-    }
-
     return (
         <div className="bg-white rounded-[16px] p-5 w-[180px] absolute z-10 -top-[20px] right-[270px] drop-shadow-xl">
             <div className="flex items-start gap-x-2.5">

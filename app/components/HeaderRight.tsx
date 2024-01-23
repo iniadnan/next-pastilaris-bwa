@@ -15,8 +15,8 @@ export default function HeaderRight() {
                     <div className="flex items-center gap-x-3">
                         <Image src="/images/header-customers.png" height={50} width={50} alt="User" />
                         <div>
-                            <strong className="font-semibold">Roman</strong>
-                            <p className="text-sm mt-1">CEO Fondro</p>
+                            <strong className="font-semibold font-poppins">Roman</strong>
+                            <p className="text-sm mt-1 font-poppins">CEO Fondro</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-x-1 mt-2.5 mb-1">
@@ -48,7 +48,7 @@ export default function HeaderRight() {
                         <path d="M19.4998 35H30.4998" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M22.4998 27H27.4998" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <h3 className="mt-4 text-center">Get Bigger<br />
+                    <h3 className="font-poppins font-semibold mt-4 text-center">Get Bigger<br />
                         Funding</h3>
                 </div>
             </div>

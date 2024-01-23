@@ -20,6 +20,7 @@
         width: 100%;
         margin: 0px auto;
     }
+
     .container-absolute {
         position: absolute;
         top: 50%;
@@ -28,5 +29,9 @@
         max-width: 1130px;
         width: 100%;
         margin: 0px auto;
+    }
+
+    .font-poppins {
+        font-family: 'Poppins', sans-serif !important;
     }
 }
