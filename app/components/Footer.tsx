@@ -20,7 +20,7 @@ export default function Footer() {
                 {/* Footer Right: Menu */}
                 <div className="flex flex-wrap items-start gap-x-[70px]">
                     <div>
-                        <h3 className="font-semibold mb-5">Product</h3>
+                        <h3 className="font-poppins font-semibold mb-5">Product</h3>
                         <div className="flex flex-wrap flex-col gap-y-2.5">
                             <Link href="/">SaaS Web Builder</Link>
                             <Link href="/">Copywriting Templates</Link>
@@ -29,7 +29,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div>
-                        <h3 className="font-semibold mb-5">Company</h3>
+                        <h3 className="font-poppins font-semibold mb-5">Company</h3>
                         <div className="flex flex-wrap flex-col gap-y-2.5">
                             <Link href="/">Privacy Policy</Link>
                             <Link href="/">Help Center</Link>
@@ -38,7 +38,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div>
-                        <h3 className="font-semibold mb-5">Developer</h3>
+                        <h3 className="font-poppins font-semibold mb-5">Developer</h3>
                         <div className="flex flex-wrap flex-col gap-y-2.5">
                             <Link href="/">API Documentations</Link>
                             <Link href="/">Product Knowledges</Link>

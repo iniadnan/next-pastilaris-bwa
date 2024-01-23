@@ -8,7 +8,7 @@ export default function BFENewCustomers() {
                     <Image src="/images/customers-1.png" height={50} width={50} alt="Customers" />
                     <Image src="/images/customers-2.png" height={50} width={50} alt="Customers" />
                 </div>
-                <h3 className="font-semibold text-[18px] grow">New Hot<br /> Customers</h3>
+                <h3 className="font-poppins font-semibold text-[18px] grow">New Hot<br /> Customers</h3>
             </div>
         </div>
     )

@@ -21,7 +21,7 @@ export default function SimpleStepsDone() {
                                 <path d="M25.0001 23.9199C24.9601 23.9199 24.9101 23.9199 24.8701 23.9199C23.9301 23.8899 23.1801 23.1099 23.1801 22.1599C23.1801 21.1899 23.9701 20.3999 24.9401 20.3999C25.9101 20.3999 26.7001 21.1899 26.7001 22.1599C26.6901 23.1199 25.9401 23.8899 25.0001 23.9199Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M23.01 26.7199C22.05 27.3599 22.05 28.4099 23.01 29.0498C24.1 29.7799 25.89 29.7799 26.98 29.0498C27.94 28.4099 27.94 27.3599 26.98 26.7199C25.9 25.9899 24.11 25.9899 23.01 26.7199Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <h3 className="font-semibold text-[20px]">Sign Up</h3>
+                            <h3 className="font-poppins font-semibold text-[20px]">Sign Up</h3>
                         </div>
                     </SimpleStepsCard>
                     <SimpleStepsCard title="Read latest report that imported to make decisions for business">
@@ -34,7 +34,7 @@ export default function SimpleStepsDone() {
                                 <path d="M25 30.7701V25.3201" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M23.76 19.2901L20.56 21.0701C19.84 21.4701 19.24 22.4801 19.24 23.3101V26.7001C19.24 27.5301 19.83 28.5401 20.56 28.9401L23.76 30.7201C24.44 31.1001 25.56 31.1001 26.25 30.7201L29.45 28.9401C30.17 28.5401 30.77 27.5301 30.77 26.7001V23.3101C30.77 22.4801 30.18 21.4701 29.45 21.0701L26.25 19.2901C25.56 18.9001 24.44 18.9001 23.76 19.2901Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <h3 className="font-semibold text-[20px]">Analyze Data</h3>
+                            <h3 className="font-poppins font-semibold text-[20px]">Analyze Data</h3>
                         </div>
                     </SimpleStepsCard>
                     <SimpleStepsCard title="You will see the results in matter of weeks that you have grow bigger">
@@ -45,7 +45,7 @@ export default function SimpleStepsDone() {
                                 <path d="M20.1666 35H31.1666" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M23.1666 27H28.1666" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                            <h3 className="font-semibold text-[20px]">Become Winner</h3>
+                            <h3 className="font-poppins font-semibold text-[20px]">Become Winner</h3>
                         </div>
                     </SimpleStepsCard>
                 </div>
@@ -55,7 +55,7 @@ export default function SimpleStepsDone() {
                 {/* Section 2 */}
                 <div className="flex items-center justify-end flex-wrap gap-x-[70px]">
                     <div className="w-[456px] flex justify-center relative font-semibold text-[18px]">
-                        <div className="absolute -top-[47px] left-0 inline-flex w-auto h-[94px] gap-x-4 p-5 rounded-[16px] bg-white drop-shadow-xl">
+                        <div className="font-poppins absolute -top-[47px] left-0 inline-flex w-auto h-[94px] gap-x-4 p-5 rounded-[16px] bg-white drop-shadow-xl">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="24.9998" cy="25" r="25" fill="#B7EB38" />
                                 <path d="M22 35H28C33 35 35 33 35 28V22C35 17 33 15 28 15H22C17 15 15 17 15 22V28C15 33 17 35 22 35Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -64,7 +64,7 @@ export default function SimpleStepsDone() {
                             </svg>
                             <h4>Hyper<br />Growth</h4>
                         </div>
-                        <div className="absolute bottom-[50px] right-0 p-5 rounded-[16px] bg-white drop-shadow-xl">
+                        <div className="font-poppins absolute bottom-[50px] right-0 p-5 rounded-[16px] bg-white drop-shadow-xl">
                             <svg className="mx-auto" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="24.9998" cy="25" r="25" fill="#B7EB38" />
                                 <path d="M29.6998 31.9801H20.2998C19.8798 31.9801 19.4098 31.6501 19.2698 31.2501L15.1298 19.6701C14.5398 18.0101 15.2298 17.5001 16.6498 18.5201L20.5498 21.3101C21.1998 21.7601 21.9398 21.5301 22.2198 20.8001L23.9798 16.1101C24.5398 14.6101 25.4698 14.6101 26.0298 16.1101L27.7898 20.8001C28.0698 21.5301 28.8098 21.7601 29.4498 21.3101L33.1098 18.7001C34.6698 17.5801 35.4198 18.1501 34.7798 19.9601L30.7398 31.2701C30.5898 31.6501 30.1198 31.9801 29.6998 31.9801Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

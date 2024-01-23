@@ -10,7 +10,7 @@ export default function BFEDataTracking() {
                         <path d="M21.5002 31.5C22.6002 31.5 23.5002 30.6 23.5002 29.5V26C23.5002 24.9 22.6002 24 21.5002 24C20.4002 24 19.5002 24.9 19.5002 26V29.5C19.5002 30.6 20.3902 31.5 21.5002 31.5Z" stroke="#0B251C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
-                <h3 className="font-semibold text-[18px] text-[#0B251C] grow">Data Tracking</h3>
+                <h3 className="font-poppins font-semibold text-[18px] text-[#0B251C] grow">Data Tracking</h3>
             </div>
             <div className="flex items-end gap-x-2 mt-5">
                 <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>

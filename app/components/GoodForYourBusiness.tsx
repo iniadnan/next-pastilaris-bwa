@@ -9,7 +9,7 @@ export default function GoodForYourBusiness() {
                     <p className="text-[18px]">We have designed a feature based on latest research</p>
                 </section>
                 {/* MENU */}
-                <div className="flex items-center justify-between border-b border-[#ABB4B1] font-medium text-[#0B251C] text-[20px] my-[50px]">
+                <div className="font-poppins flex items-center justify-between border-b border-[#ABB4B1] font-medium text-[#0B251C] text-[20px] my-[50px]">
                     <div className="flex items-center gap-x-4 pb-[30px] relative">
                         <div className="h-[50px] w-[50px] flex-none">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">

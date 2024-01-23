@@ -21,7 +21,7 @@ export default function HeroBigReasons() {
                             </svg>
                         </div>
                         <div className="w-[150px]">
-                            <p className="font-bold text-[42px]">12,390</p>
+                            <p className="font-bold text-[42px] font-poppins -mt-2">12,390</p>
                             <h3 className="text-[18px] mt-2">Happy Customers Using Product</h3>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function HeroBigReasons() {
                             </svg>
                         </div>
                         <div className="w-[119px]">
-                            <p className="font-bold text-[42px]">829</p>
+                            <p className="font-bold text-[42px] font-poppins -mt-2">829</p>
                             <h3 className="text-[18px] mt-2">Successful On Big Projects</h3>
                         </div>
                     </div>
