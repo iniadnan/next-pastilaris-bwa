@@ -1,4 +1,15 @@
+"use client"
+import { useEffect, useState } from "react";
 export default function BFEDataTracking() {
+
+    useEffect(() => {
+        isScrolling();
+    }, [])
+
+    const isScrolling = () => {
+        console.log(window.screenY)
+    }
+
     return (
         <div className="bg-white rounded-[16px] p-5 w-[180px] absolute z-10 -top-[20px] right-[270px] drop-shadow-xl">
             <div className="flex items-start gap-x-2.5">
@@ -12,15 +23,16 @@ export default function BFEDataTracking() {
                 </div>
                 <h3 className="font-semibold text-[18px] text-[#0B251C] grow">Data Tracking</h3>
             </div>
-            <div className="flex items-start gap-x-2 mt-5">
+            <div className="flex items-end gap-x-2 mt-5">
                 <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
-                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#EDF3F0]"></div>
+                <div className="w-[8px] h-[30px] rounded-[100px] bg-[#EDF3F0]"></div>
+                <div className="w-[8px] h-[30px] rounded-[100px] bg-[#EDF3F0]"></div>
+                <div className="w-[8px] h-[19px] rounded-[100px] bg-[#EDF3F0]"></div>
+                <div className="w-[8px] h-[50px] rounded-[100px] bg-[#B7EB38]"></div>
+                <div className="w-[8px] h-[19px] rounded-[100px] bg-[#ACB4B1]"></div>
+                <div className="w-[8px] h-[30px] rounded-[100px] bg-[#ACB4B1]"></div>
+                <div className="w-[8px] h-[45px] rounded-[100px] bg-[#B7EB38]"></div>
+                <div className="w-[8px] h-[30px] rounded-[100px] bg-[#ACB4B1]"></div>
             </div>
         </div>
     )
