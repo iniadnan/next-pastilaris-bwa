@@ -67,7 +67,7 @@ export default function GoodForYourBusiness() {
                             <Image src="/images/gfb-image.png" height={470} width={450} alt="Good For Your Business" />
                         </div>
                         <div className="w-[470px]">
-                            <h3 className="font-bold text-[32px] mb-2.5">We’re Helping Big
+                            <h3 className="font-bold text-[32px] mb-2.5">We’re Helping Big<br />
                                 Global Companies Grow</h3>
                             <p className="font-medium text-[18px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
                             <div className="mt-[30px]">
@@ -98,7 +98,7 @@ export default function GoodForYourBusiness() {
                                     </div>
                                     <p className="font-bold text-[18px] grow">Reporting and extracting the data</p>
                                 </div>
-                                <Button title="Learn More" background="bg-transparent border border-[#0B251C] h-[43px]" color="text-[#0B251C]" />
+                                <button type="button" className={`bg-transparent border border-[#0B251C] font-bold text-sm h-[43px] px-[30px] rounded-[100px]`}>Learn More</button>
                             </div>
                         </div>
                     </article>

@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
       {/* We're Helping */}
       <div>
-        <div className="container py-[70px]">
+        <div className="container pb-[70px]">
           <h2 className="font-bold text-[32px] text-[#0B251C] text-center">We’re Helping Big<br />
             Global Companies Grow</h2>
           <div className="flex flex-wrap items-center justify-center gap-x-[70px] mt-[30px]">
