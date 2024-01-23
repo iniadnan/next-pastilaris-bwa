@@ -89,23 +89,8 @@ export default function Home() {
       </section>
       <SimpleStepsDone />
       {/* Grow Your SaaS */}
-      <section className="bg-[#0B251C]">
-        <div className="w-full max-w-[1440px] flex flex-wrap mx-auto">
-          <div className="w-1/2 flex items-center text-white">
-            <div className="w-[480px] mx-auto">
-              <h2 className="font-bold text-[32px]">Grow Your SaaS</h2>
-              <p className="font-medium mt-2.5 mb-[30px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
-              <div className="flex items-center gap-x-6 font-bold">
-                <Button title="Get Started" background="bg-[#B7EB38]" color="text-[#0B251C]" />
-                <p className="text-center flex items-center gap-x-2">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="12" r="12" fill="white" />
-                    <path d="M6.16666 12.3889L8.24477 14.4208C9.4871 15.6355 11.4983 15.5441 12.6254 14.2217L17.8333 8.11108" stroke="#0B251C" strokeWidth="3" strokeLinecap="round" />
-                  </svg>
-                  No credit card required, really.</p>
-              </div>
-            </div>
-          </div>
+      <section className="bg-[#0B251C] relative">
+        <div className="w-full max-w-[1440px] flex justify-end flex-wrap mx-auto">
           <div className="w-1/2">
             <Image
               src="/images/grow-your-saas.png"
@@ -115,6 +100,21 @@ export default function Home() {
               style={{ width: '100%', height: 'auto' }}
               alt="Picture of the author"
             />
+          </div>
+        </div>
+        <div className="container-absolute">
+          <div className="w-full max-w-[480px] text-white">
+            <h2 className="font-bold text-[32px]">Grow Your SaaS</h2>
+            <p className="font-medium mt-2.5 mb-[30px]">Track your customers behavior to make a good decision that helps the customer use our services better way.</p>
+            <div className="flex items-center gap-x-6 font-bold">
+              <Button title="Get Started" background="bg-[#B7EB38]" color="text-[#0B251C]" />
+              <p className="text-center flex items-center gap-x-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="white" />
+                  <path d="M6.16666 12.3889L8.24477 14.4208C9.4871 15.6355 11.4983 15.5441 12.6254 14.2217L17.8333 8.11108" stroke="#0B251C" strokeWidth="3" strokeLinecap="round" />
+                </svg>
+                No credit card required, really.</p>
+            </div>
           </div>
         </div>
       </section>
