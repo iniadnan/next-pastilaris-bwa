@@ -39,7 +39,8 @@ export default function HeaderRight() {
                     <p className="font-semibold">I can improve and save money to grow my own business from scratch</p>
                 </div>
                 <div className="h-full w-full relative overflow-hidden">
-                    <Image src="/images/header-image.png" className={`${isLoaded ? 'top-5 left-5' : 'top-0 left-0'} absolute transition-all duration-700 w-[447] h-auto max-w-none`} width={447} height={506} alt="Making Greate Buisness Decision" />
+                    <img className={`${isLoaded ? 'top-5 left-5' : 'top-0 left-0'} absolute transition-all duration-700 w-[447] h-auto max-w-none`} src="/images/header-image.webp" width="447" height="506" alt="Making Greate Buisness Decision" />
+                    {/* <Image src="/images/header-image.png" className={`${isLoaded ? 'top-5 left-5' : 'top-0 left-0'} absolute transition-all duration-700 w-[447] h-auto max-w-none`} width={447} height={506} alt="Making Greate Buisness Decision" /> */}
                 </div>
                 <div className="absolute z-10 top-[76px] -right-[40px] p-5 rounded-[16px] bg-white drop-shadow-xl">
                     <svg className="mx-auto" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
